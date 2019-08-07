@@ -1,0 +1,12 @@
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    
+
+
+    RewriteRule ^hasssan filetoUpload.php [NC,L]
+
+</IfModule>
+
+
